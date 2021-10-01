@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "syllabus link",
+  "version": "0.1.0",
+  "description": "WebClassの各講義ページからシラバスへ飛べるボタンを生成します。",
+  "content_scripts": [
+    {
+      "matches": ["https://webclass.cc.u-ryukyu.ac.jp/webclass/course.php/*"],
+      "js": ["main.js"]
+    }
+  ]
+}
