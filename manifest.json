@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "syllabus link",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "WebClassの各講義ページからシラバスへ飛べるボタンを生成します。",
   "content_scripts": [
     {
